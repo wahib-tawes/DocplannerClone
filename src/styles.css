@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.intro {
+  padding-top: 50px;
+}
+.introduction-text {
+  display: flex;
+}
+
+.service-card-patient {
+  background-color: #00b39b;
+}
+.introduction-title {
+  color: #00b39b;
+  font-size: 30px;
+  margin: 20px;
+}
+.introduction-logo {
+  margin: 20px;
+}

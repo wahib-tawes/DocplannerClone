@@ -1,2 +1,0 @@
-# DocplannerClone
-Created with CodeSandbox

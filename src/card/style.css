@@ -1,0 +1,39 @@
+.service-card-title {
+  font-size: 20px;
+}
+.service-card {
+  height: 350px;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  flex-grow: 1;
+}
+.for,
+.service-card-title,
+.service-card-content {
+  text-align: left;
+}
+.service-card-img {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.service-card-select {
+  padding: 10px;
+  border-radius: 5px;
+}
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 576px) {
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

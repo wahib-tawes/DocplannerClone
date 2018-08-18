@@ -1,0 +1,48 @@
+.Docplanner-title,
+.Docplanner-title:hover {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.Docplanner-title > span {
+  color: rgb(0, 179, 155);
+}
+.About,
+.About:hover {
+  color: rgb(0, 179, 155);
+  text-decoration: none;
+}
+.Career,
+.Career:hover,
+.Departement,
+.Departement:hover,
+.dropdown-content,
+.dropdown-content:hover,
+.a,
+.a:hover {
+  color: gray;
+  text-decoration: none;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.062);
+  z-index: 1;
+  margin-left: -15px;
+}
+.nav-link {
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+}
+/*links in navbar*/
+.links {
+  display: flex;
+  flex-direction: column;
+}
